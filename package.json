@@ -1,0 +1,22 @@
+{
+  "name": "fwc-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temiloluwa-js/fwc-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temiloluwa-js/fwc-token/issues"
+  },
+  "homepage": "https://github.com/temiloluwa-js/fwc-token#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

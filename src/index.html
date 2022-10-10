@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      ::-webkit-scrollbar {
+        height: 12px;
+        width: 7px;
+        background: black;
+      }
+
+      html,
+      body {
+        scroll-behavior: smooth;
+        font-family: "General Sans", sans-serif;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #ef4444;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body class="bg-[#151515]">
+    <nav
+      class="flex text-white py-4 justify-between items-center lg:px-30 md:px-20 px-8 xl:px-40 fixed left-0 right-0 top-0 z-10"
+    >
+      <a href="index.html"><img src="fwc-token.jpeg" alt="" width="40px" /></a>
+      <div class="hidden lg:block">
+        <a
+          href="#roadmap"
+          class="transition-colors hover:text-red-500 duration-300"
+          >Q1 Roadmap</a
+        >
+
+        <a
+          href="https://t.me/fifaworldcuptokn"
+          class="border border-white p-3 ml-4 bg-red-500 text-white rounded-3xl"
+          >Join on Telegram</a
+        >
+      </div>
+      <button class="text-xs text-red-500 lg:hidden block" onclick="showMenu()">
+        MENU
+      </button>
+      <div class="fixed inset-0 bg-red-500 hidden" id="mobile">
+        <button
+          class="font-bold text-3xl mt-20 mb-10 w-fit ml-4 transition-colors duration-300 hover:text-black"
+          id="close"
+          onclick="hideMenu()"
+        >
+          X
+        </button>
+        <div class="flex flex-col">
+          <a
+            href="#roadmap"
+            onclick="hideMenu()"
+            class="transition-colors ml-4 hover:text-black text-2xl duration-300 link"
+            >Q1 Roadmap</a
+          >
+          <a
+            href="https://twitter.com/fifaworldcuptkn"
+            onclick="hideMenu()"
+            class="transition-colors hover:text-black text-2xl ml-4 duration-300 link"
+            >Follow On Twitter</a
+          >
+
+          <a
+            href="https://t.me/fifaworldcuptokn"
+            onclick="hideMenu()"
+            class="transition-colors hover:text-black text-2xl ml-4 duration-300 link"
+            >Join on Telegram</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section class="flex">
+      <div class="text-center my-40 max-w-[800px] w-10/12 mx-auto">
+        <h1
+          class="xl:text-7xl lg:text-6xl md:text-5xl text-4xl mb-4 font-bold text-red-500"
+        >
+          FIFA World Cup Token.
+        </h1>
+        <p
+          class="xl:text-xl lg:text-lg md:text-md text-sm opacity-75 text-white"
+        >
+          FIFA World Cup Token is a token brought up by a great team to reward
+          FIFA lovers who are into the crypto space. By holding $FWCT, you earn
+          rewards in BUSD, 10% of each of your holdings in dollars. 10% will be
+          allocated to your BUSD address everyday. 7 days of a week complete
+          holdings of the token. Our NFTS will be live on the NFT platform which
+          will be available soon by the FIFA Community.
+        </p>
+        <div class="mt-8 flex flex-wrap mx-auto border">
+          <a
+            href="https://t.me/fifaworldcuptokn"
+            class="border-2 rounded-3xl border-white p-2 text-white lg:text-md text-sm bg-red-500 mx-auto"
+          >
+            Join On Telegram.
+          </a>
+          <p class="hidden md:inline mx-2"></p>
+          <a
+            href="https://twitter.com/fifaworldcuptkn"
+            class="border-2 rounded-3xl border-white p-2 text-white text-md lg:text-md text-sm mx-auto"
+          >
+            Follow On Twitter.
+          </a>
+        </div>
+        <img
+          src="coin-svgrepo-com (3).svg "
+          alt=""
+          class="border mx-auto invert mt-12"
+        />
+      </div>
+    </section>
+    <section class="mt-10" id="roadmap">
+      <div class="xl:mx-40 lg:mx-30 md:mx-20 mx-8 pt-10">
+        <h1
+          class="xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-array text-red-500 font-medium"
+        >
+          Q1 ROADMAP
+        </h1>
+        <div class="my-8 flex flex-wrap justify-between">
+          <ul
+            class="ml-8 text-md md:text-lg lg:text-xl xl:text-2xl w-full md:w-6/12 text-white"
+          >
+            <li class="list-disc my-4">Socials creation.</li>
+            <li class="list-disc my-4">Token creation</li>
+            <li class="list-disc my-4">Presale</li>
+            <li class="list-disc my-4">Rewards to holders starts</li>
+            <li class="list-disc my-4">Pancake swap launch</li>
+            <li class="list-disc my-4">CG and CMC listing</li>
+            <li class="list-disc my-4">Exchange listing</li>
+          </ul>
+          <img
+            src="coin-svgrepo-com (2).svg"
+            class="invert md:w-5/12 md:mt-0 mt-10 w-9/12 mx-auto"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="bg-red-500">
+      <div class="py-32 flex justify-between flex-wrap md:mx-20 mx-8">
+        <h1 class="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-array">
+          Join our
+          <a
+            href="https://t.me/fifaworldcuptokn"
+            class="bg-black text-white hover:text-red-500 p-1 transition-colors duration-300"
+            >channel</a
+          >
+          for more information on the token launch. You can also follow us on
+          <a
+            href="https://twitter.com/fifaworldcuptkn"
+            class="bg-black p-1 transition-colors duration-300 text-white hover:text-red-500"
+            >twitter.</a
+          >
+        </h1>
+        <p class="text-sm font-array mt-2">
+          Built by
+          <a href="https://www.twitter.com/_abdurrazaq_" class="text-white"
+            >Temiloluwa-JS.</a
+          >
+        </p>
+      </div>
+    </section>
+    <script>
+      const menu = document.getElementById("mobile");
+      const close = document.getElementById("close");
+      const links = document.getElementsByClassName("link");
+
+      const hideMenu = () => {
+        menu.classList.add("hidden");
+      };
+
+      const showMenu = () => {
+        menu.classList.remove("hidden");
+      };
+    </script>
+  </body>
+</html>
